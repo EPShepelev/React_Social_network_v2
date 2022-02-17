@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import { UserOutlined, CommentOutlined, GlobalOutlined, SoundOutlined, SettingOutlined } from '@ant-design/icons'
+import { UserOutlined, CommentOutlined, TeamOutlined, GlobalOutlined, SoundOutlined, SettingOutlined } from '@ant-design/icons'
 import styles from './Sider.module.scss'
 import { MenuItem } from '../MenuItem/MenuItem'
 
@@ -19,18 +19,23 @@ export const Sider: React.FC = () => {
           Messages
         </MenuItem>
       </Link>
+      <Link to="/users">
+        <MenuItem key={3} icon={<TeamOutlined />}>
+          Users
+        </MenuItem>
+      </Link>
       <Link to="/news">
-        <MenuItem key={3} icon={<GlobalOutlined />}>
+        <MenuItem key={4} icon={<GlobalOutlined />}>
           News
         </MenuItem>
       </Link>
       <Link to="/music">
-        <MenuItem key={4} icon={<SoundOutlined />}>
+        <MenuItem key={5} icon={<SoundOutlined />}>
           Music
         </MenuItem>
       </Link>
       <Link to="/settings">
-        <MenuItem key={5} icon={<SettingOutlined />}>
+        <MenuItem key={6} icon={<SettingOutlined />}>
           Settings
         </MenuItem>
       </Link>

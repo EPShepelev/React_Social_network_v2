@@ -1,8 +1,9 @@
 .item {
   cursor: pointer;
   margin: 5px 0;
+  color: #8c8c8c;
   &:hover,
   &:active {
-    color: #8c8c8c;
+    color: #000;
   }
 }
