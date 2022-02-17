@@ -1,3 +1,5 @@
+import { BrowserRouter as Router } from "react-router-dom";
+
 import { Header } from './components/Header/Header'
 import { Sider } from './components/Sider/Sider'
 import { Content } from './components/Content/Content'
@@ -7,14 +9,16 @@ import './App.scss';
 
 const App = () => {
   return (
-    <div className='container'>
-      <Header />
-      <div className='wrapper'>
-        <Sider />
-        <Content />
+    <Router>
+      <div className='container'>
+        <Header />
+        <div className='wrapper'>
+          <Sider />
+          <Content />
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </Router>
   );
 }
 

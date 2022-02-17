@@ -1,6 +1,6 @@
 import styles from './MenuItem.module.scss'
 
-export interface MenuItemProps {
+export interface MenuItemProps extends React.HTMLAttributes<HTMLDivElement> {
   icon: any
   children: string
 }
