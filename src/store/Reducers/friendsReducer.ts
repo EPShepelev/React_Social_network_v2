@@ -29,6 +29,6 @@ const initialState = {
   ]
 }
 
-export const friendsReducer = (state = initialState, action) => {
+export const friendsReducer = (state = initialState, action: any) => {
   return state
 }
