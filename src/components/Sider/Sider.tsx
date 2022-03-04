@@ -14,9 +14,9 @@ export const Sider: React.FC = () => {
           Profile
         </MenuItem>
       </Link>
-      <Link to="/messages">
+      <Link to="/dialogs">
         <MenuItem key={2} icon={<CommentOutlined />}>
-          Messages
+          Dialogs
         </MenuItem>
       </Link>
       <Link to="/users">
