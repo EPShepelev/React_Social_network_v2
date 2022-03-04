@@ -96,6 +96,6 @@ const initialState = {
   ]
 }
 
-export const dialogsReducer = (state = initialState, action: any) => {
+export const dialogsReducer = (state = initialState, action) => {
   return state
 }
