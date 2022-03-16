@@ -1,11 +1,12 @@
-import React from "react";
+import { FC } from 'react'
+
 import { Link } from "react-router-dom";
 
 import { UserOutlined, CommentOutlined, TeamOutlined, GlobalOutlined, SoundOutlined, SettingOutlined } from '@ant-design/icons'
 import styles from './Sider.module.scss'
 import { MenuItem } from '../MenuItem/MenuItem'
 
-export const Sider: React.FC = () => {
+export const Sider:FC = () => {
 
   return (
     <div className={styles.menu}>

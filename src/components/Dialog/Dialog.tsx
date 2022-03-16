@@ -1,8 +1,10 @@
+import { FC } from 'react'
+
 import { Back } from '../Back/Back'
 import { UserCard } from '../UserCard/UserCard';
 import style from './Dialog.module.scss'
 
-export const Dialog: React.FC = () => {
+export const Dialog:FC = () => {
   return (
     <div >
       <div className={style.card}>

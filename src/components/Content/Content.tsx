@@ -1,11 +1,12 @@
-import { Routes, Route } from "react-router-dom";
+import { FC } from 'react'
+import { Routes, Route } from "react-router-dom"
 
 import { NoPage } from '../NoPage/NoPage'
 import { Profile } from '../Profile/Profile'
 import { Dialogs } from '../Dialogs/Dialogs'
 import { Users } from '../Users/Users'
 
-export const Content: React.FC = () => {
+export const Content:FC = () => {
   return (
     <div>
       <Routes>

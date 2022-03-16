@@ -1,6 +1,8 @@
+import { FC } from 'react'
+
 import styles from './UserCard.module.scss'
 
-export const UserCard: React.FC = () => {
+export const UserCard: FC = () => {
   return (
     <div>
      {/* avatar - component */}

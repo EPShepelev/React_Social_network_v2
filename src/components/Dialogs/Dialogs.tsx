@@ -1,9 +1,9 @@
-import { useState } from 'react'
+import { useState, FC } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { addDialog } from '../../store/Slice/dialogsSlice'
 import { Dialog } from '../Dialog/Dialog'
 
-export const Dialogs: React.FC = () => {
+export const Dialogs:FC = () => {
   const { dialogs } = useSelector((state: any) => state.dialogs)
   const dispatch = useDispatch()
 
