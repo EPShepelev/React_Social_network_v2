@@ -1,3 +1,4 @@
+
 import styles from './MenuItem.module.scss'
 
 export interface MenuItemProps extends React.HTMLAttributes<HTMLDivElement> {
